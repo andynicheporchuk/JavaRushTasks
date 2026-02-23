@@ -14,13 +14,11 @@ public class Solution {
         //напишите тут ваш код
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int[] array = new int[n];
+        array = new int[n];
         int min = Integer.MAX_VALUE;
 
-        int i1;
-
-        for (int j = 0; j < n; j++) {
-            array[j] = sc.nextInt();
+        for (int i = 0; i < array.length; i++) {
+            array[i] = sc.nextInt();
         }
 
         for (int i = 0; i < array.length; i++) {
