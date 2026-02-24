@@ -1,5 +1,6 @@
 package com.javarush.task.pro.task05.task0511;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /* 
@@ -13,10 +14,19 @@ public class Solution {
         //напишите тут ваш код
         Scanner sc = new Scanner(System.in);
         int numberInput = sc.nextInt();
+        multiArray = new int[numberInput][];
 
         for (int i = 0; i < numberInput; i++) {
-
+            multiArray[i] = new int[sc.nextInt()];
         }
 
+
+        // вывод двумерного массива на экран
+//        for (int i = 0; i < multiArray.length; i++) {
+//            for (int j = 0; j < multiArray[i].length; j++) {
+//                System.out.print(multiArray[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
     }
 }
