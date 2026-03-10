@@ -17,19 +17,11 @@ public class Solution {
 
     public static String toHex(String binaryNumber) {
         //напишите тут ваш код
-        if (binaryNumber == null || !binaryNumber.contains(Character.toString('0'))
-                || !binaryNumber.contains(Character.toString('1'))) {
-            return "";
-        }
         return null;
     }
 
     public static String toBinary(String hexNumber) {
         //напишите тут ваш код
-        if (hexNumber == null || !hexNumber.contains(Character.toString('0'))
-        || !hexNumber.contains(Character.toString('1'))) {
-            return "";
-        }
         return null;
     }
 }
