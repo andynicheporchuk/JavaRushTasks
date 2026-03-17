@@ -17,8 +17,8 @@ public class Solution {
         array = new int[n];
         int min = Integer.MAX_VALUE;
 
-        for (int i = 0; i < array.length; i++) {
-            array[i] = sc.nextInt();
+        for (int j = 0; j < n; j++) {
+            array[j] = sc.nextInt();
         }
 
         for (int i = 0; i < array.length; i++) {
